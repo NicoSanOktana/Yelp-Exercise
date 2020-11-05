@@ -9,8 +9,11 @@ Build to test some functionalities of Yelp and report the results in this reposi
 4) Search with some random filtering parameters (parametrized through TestNG framework). Parameters used to filter results: {'Feautures','Neighborhood'}
     
     Combinations tested:
+    
       1- {"GoodForKids","CA:San_Francisco::Outer_Sunset"}
+      
       2- {"RestaurantsGoodForGroups","CA:San_Francisco::Inner_Richmond"}
+      
       3- {"GoodForMeal.dinner","CA:San_Francisco::Stonestown"}
       
 5) For each combination, No. of Results and No. of Stars were reported.
