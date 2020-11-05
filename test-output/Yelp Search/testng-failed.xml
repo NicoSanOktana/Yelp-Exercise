@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yelp Search]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Restaurants in Yelp(failed)">
+    <classes>
+      <class name="tests.mainRunner">
+        <methods>
+          <include name="results_with_filters" invocation-numbers="2"/>
+          <include name="before_scenario"/>
+        </methods>
+      </class> <!-- tests.mainRunner -->
+    </classes>
+  </test> <!-- Restaurants in Yelp(failed) -->
+</suite> <!-- Failed suite [Yelp Search] -->
